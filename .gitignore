@@ -1,0 +1,8 @@
+*.zip
+*.ckpt
+*.pkl
+*.egg-info
+**/archive
+**/__pycache__
+
+build
