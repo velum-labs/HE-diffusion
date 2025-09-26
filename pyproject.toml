@@ -1,0 +1,32 @@
+[project]
+name = "he-diffusion"
+version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = [
+    "albumentations==0.4.3",
+    "diffusers>=0.35.1",
+    "einops==0.3.0",
+    "imageio==2.9.0",
+    "imageio-ffmpeg==0.4.2",
+    "invisible-watermark>=0.2.0",
+    "ipykernel>=6.29.5",
+    "kornia==0.6",
+    "numpy==1.19.2",
+    "omegaconf==2.1.1",
+    "opencv-python==4.1.2.30",
+    "pudb==2019.2",
+    "pytorch-lightning==1.4.2",
+    "streamlit>=1.24.1",
+    "taming-transformers>=0.0.1",
+    "test-tube>=0.7.5",
+    "torch==1.11.0",
+    "torch-fidelity==0.3.0",
+    "torchmetrics==0.6.0",
+    "torchvision==0.12.0",
+    "transformers==4.19.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "taming-transformers",
+]
